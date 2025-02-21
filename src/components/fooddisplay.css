@@ -1,0 +1,22 @@
+.foo-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center
+}
+ .food{
+    border: 1px solid white;
+    padding: 10px; 
+    border-radius: 5px;
+    width: 200px; 
+    text-align: center;
+    background-color: #333;
+    color: white   
+} 
+.food:hover{
+ background-color: rgb(27, 182, 143);
+ transform: scale(1.1);
+}
+.desc{
+    color: white;
+}

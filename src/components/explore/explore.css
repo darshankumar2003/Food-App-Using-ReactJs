@@ -1,0 +1,36 @@
+.menu {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    gap: 90px;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+
+.menu-img {
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-img:hover {
+    transform: scale(1.1);
+}
+
+.menu-item p {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #146a9b; 
+}
+.heading{
+    color: white;
+}

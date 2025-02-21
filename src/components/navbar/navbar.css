@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Font+Name:wght@400;700&display=swap');
+.navlogo{
+   position: absolute;
+   margin-left: 70px;
+}
+.nav{
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+   margin-left: 700px;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    transition: border-bottom 0.3s ease;
+  
+}
+.nav li {
+    padding-bottom: 2px;
+    transition: border-bottom 0.3s ease-in-out; 
+}
+.nav .active{
+    padding-bottom: 2px;
+    border-bottom: 5px solid green;
+}
+.nav li:hover {
+    color: green;
+}
+.search{
+    position: absolute;
+    margin-left:130px;
+    size: 40px;
+}
+.cart{
+    margin-left:185px;   
+}
+
+.signin{
+    position: absolute;
+    width:120px;
+   height: 30px;
+    margin-top: 1px;
+    margin-left:700px; 
+    border-radius: 30px;
+    border: 1px white;
+    
+    
+}
+.navlist {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    border-radius: 30px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
